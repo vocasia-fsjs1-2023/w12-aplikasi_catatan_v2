@@ -14,7 +14,7 @@ Pada daftar catatan:
 - menampilkan daftar catatan dengan data hardcode akan tetapi sudah mengaplikasikan Rendering list of data menggunakan array.map (data yang dihardcode berupa array dan arraynya disimpan menggunakan state management useState dari react)
 - menerapkan reusable component untuk tiap component pada daftar catatan.
 - data yang perlu ditampilkan meliputi Judul catatan (title), waktu pembuatan (createdAt) dan isi catatan (body)
-- menampilkan tombol delete catatan yang akan menghapus catatan berdasarakan  index array dimana dia berada
+- menampilkan tombol delete catatan (bisa berupa icon / tombol dengan tulisan hapus) yang akan menghapus catatan berdasarakan  index array dimana dia berada
 - menampilkan input search by title pada bagian atas halaman daftar catatan  yang berfungsi memfilter catatan berdasarkan input 
 
 ### Menampilkan Form untuk menambah catatan di Halaman Catatan
