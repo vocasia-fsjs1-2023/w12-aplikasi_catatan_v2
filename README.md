@@ -4,18 +4,20 @@ Pada tugas kali ini kalian akan diminta untuk melakukan improvement pada tugas A
 
 ## Requirement
 
-### Terdapat 2 Halaman yaitu halaman Login dan Halaman Home
-- Terdapat halaman login yang menggunakan react form dan sudah impement setState untuk input value email dan passwordnya
+### Terdapat 2 Halaman yaitu halaman Tambah Catatan dan Halaman Home
+- Terdapat halaman Catatan yang menggunakan react form dan sudah implement state management useState() untuk input title dan body nya
 - Terdapat halaman home yang menampilkan daftar catatan
-- Mengaplikasian React Router dom saat pemindahan halaman setelah tombol login di klik akan pindah ke halaman home (validasi user yang login di hiraukan / di buat hardcode dulu)
+- Mengaplikasian React Router dom saat pemindahan halaman setelah tombol Submit di halaman Tambah Catatan akan menambahkan data dan langsung pindah kembali ke halaman home
 
 ### Menampilkan Daftar Catatan
 Pada daftar catatan:
 - menampilkan daftar catatan dengan data hardcode akan tetapi sudah mengaplikasikan Rendering list of data menggunakan array.map (data yang dihardcode berupa array dan arraynya disimpan menggunakan state management useState dari react)
 - menerapkan reusable component untuk tiap component pada daftar catatan.
 - data yang perlu ditampilkan meliputi Judul catatan (title), waktu pembuatan (createdAt) dan isi catatan (body)
+- menampilkan tombol delete catatan yang akan menghapus catatan berdasarakan  index array dimana dia berada
+- menampilkan input search by title pada bagian atas halaman daftar catatan  yang berfungsi memfilter catatan berdasarkan input 
 
-### Menampilkan Form untuk menambah catatan 
+### Menampilkan Form untuk menambah catatan di Halaman Catatan
 Pada form untuk menambah catatan: 
 - Mengaplikasikan React Form, kemudian data sementara disimpan menggunakan state management useState
 - apabila data sudah di input dengan tombol submit dari event handler onSubmit akan menginput data sementara tadi kedalam Array hardcode buatan kalian
